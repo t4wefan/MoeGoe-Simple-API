@@ -5,7 +5,7 @@ JSON_AS_ASCII = False
 MAX_CONTENT_LENGTH = 5242880
 
 # 端口
-PORT = 23456
+PORT = 7860
 # 项目的绝对路径
 ABS_PATH = os.path.join(os.path.dirname(os.path.realpath(sys.argv[0])))
 # 上传文件的临时路径，非必要不要动
@@ -29,7 +29,9 @@ MODEL_LIST = [
 '''
 # 模型加载列表
 MODEL_LIST = [
+#VITS
 
+    [ABS_PATH+"Model/test1/test1.pth", ABS_PATH+"Model/test1/config.json"],
 ]
 
 """以下选项是修改VITS GET方法 [不指定参数]时的默认值 非必要不要动"""
