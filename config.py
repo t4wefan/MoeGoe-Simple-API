@@ -31,7 +31,7 @@ MODEL_LIST = [
 MODEL_LIST = [
 #VITS
 
-    [ABS_PATH+"Model/test1/test1.pth", ABS_PATH+"Model/test1/config.json"],
+    [ABS_PATH+"/root/Model/test1/test1.pth", ABS_PATH+"/root/Model/test1/config.json"],
 ]
 
 """以下选项是修改VITS GET方法 [不指定参数]时的默认值 非必要不要动"""
